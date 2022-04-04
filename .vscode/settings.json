@@ -5,6 +5,9 @@
         "lib/**/*.jar"
     ],
     "cSpell.words": [
+        "celula",
+        "Exercicio",
+        "movin",
         "Questao"
     ],
     "terminal.integrated.sendKeybindingsToShell": true
