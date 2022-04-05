@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CadastroProdutos",
+            "request": "launch",
+            "mainClass": "Questao1_Lista.CadastroProdutos",
+            "projectName": "Ap1ED_7ee66098"
+        },
+        {
+            "type": "java",
             "name": "Launch ListaEncadeada_Teste",
             "request": "launch",
             "mainClass": "ExercicioLista.ListaEncadeada_Teste",

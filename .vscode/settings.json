@@ -8,7 +8,9 @@
         "celula",
         "Exercicio",
         "movin",
-        "Questao"
+        "opcao",
+        "Questao",
+        "Showmenu"
     ],
     "terminal.integrated.sendKeybindingsToShell": true
 }

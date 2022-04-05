@@ -18,7 +18,7 @@ public class ListaEncadeada_Teste {
         nome.adiciona("Amarelo");
         nome.adiciona("Rosa");
 
-        System.out.println(lista);
-        System.out.println(nome);
+        System.out.println("Quantidade de números: " + lista.tamanho());
+        System.out.println("Quantidade de nomes: "+ nome.tamanho());
     }
 }
