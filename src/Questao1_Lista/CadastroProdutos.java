@@ -1,14 +1,17 @@
 package Questao1_Lista;
 
 import java.util.Scanner;
-import Questao1_Lista.ListaEncadeada.List;
+
+import Questao1_Lista.ListaEncadeada.Lista;
+
 
 public class CadastroProdutos { 
     
     public static void main (String[]args){
 
         Scanner input = new Scanner(System.in);
-        List <String> list = new List<>();
+        Lista<String> lista = new Lista<>();
+        
 
         int opcao;
         do{
@@ -18,17 +21,22 @@ public class CadastroProdutos {
         
             switch (opcao) {
             case 1: {
-                    System.out.println(" Digite o nome do produto: ");
-                    String value = input.nextLine();
-                    list.add(value);
-                    break;        
+                
+                System.out.print("Digite um novo Produto:");
+                lista.adicionar(input.next());
+
+                    
+                break;
             } 
+            
             case 2: {
                 
-                System.out.println(list.toString());
+                
                 break;
             }
             case 3: {
+
+                System.out.println(lista);
                 
                 break;
             }
@@ -39,8 +47,9 @@ public class CadastroProdutos {
             default: {
                 System.out.println("OpçãO Inválida!");
                 break;
+            } 
             }
-            }
+            
         
         } while(opcao!=4);
     }

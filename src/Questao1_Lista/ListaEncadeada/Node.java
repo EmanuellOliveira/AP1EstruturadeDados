@@ -2,33 +2,40 @@ package Questao1_Lista.ListaEncadeada;
 
 public class Node<T> {
     
-    private T value;
-    private Node<T> next;
+    private T elemento;
+    private Node<T> proximo;
+
+    public Node(T elemento){
+        this.elemento = elemento;
+        this.proximo = null;
+    }
+
+    public Node(T elemento, Node<T> proximo){
+        this.elemento = elemento;
+        this.proximo = proximo;
+    }
+
+
+    public T getElemento() {
+        return elemento;
+    }
     
-    public Node(T value) {
-        this.value = value;
-        this.next = null;
+    public void setElemento(T elemento) {
+        this.elemento = elemento;
+    }
+    
+    public Node<T> getProximo() {
+        return proximo;
+    }
+    
+    public void setProximo(Node<T> proximo) {
+        this.proximo = proximo;
     }
 
-    public Node(T value, Node<T> next) {
-        this.value = value;
-        this.next = next;
+    @Override
+    public String toString() {
+        return "Node [elemento=" + elemento + ", proximo=" + proximo + "]";
     }
 
-    public T getValue() {
-        return value;
-    }
-
-    public void setValue(T value) {
-        this.value = value;
-    }
-
-    public Node<T> getNext() {
-        return next;
-    }
-
-    public void setNext(Node<T> next) {
-        this.next = next;
-    }
-
+    
 }
