@@ -6,17 +6,27 @@
     ],
     "cSpell.words": [
         "celula",
+        "codigo",
+        "Codigo",
         "Comeco",
+        "Cuzcuz",
+        "evazia",
         "Exercicio",
+        "listadeprodutos",
+        "listaprodutos",
         "movin",
         "newpeoduto",
         "newproduto",
+        "nodeatual",
         "opcao",
         "posicao",
         "preco",
+        "proprietario",
         "Questao",
         "setcod",
-        "Showmenu"
+        "Showmenu",
+        "stringbuilder",
+        "Stringnome"
     ],
     "terminal.integrated.sendKeybindingsToShell": true
 }

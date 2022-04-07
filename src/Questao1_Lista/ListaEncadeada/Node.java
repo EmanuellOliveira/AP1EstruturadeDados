@@ -15,7 +15,6 @@ public class Node<T> {
         this.proximo = proximo;
     }
 
-
     public T getElemento() {
         return elemento;
     }
@@ -36,6 +35,4 @@ public class Node<T> {
     public String toString() {
         return "Node [elemento=" + elemento + ", proximo=" + proximo + "]";
     }
-
-    
 }
